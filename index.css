@@ -1,0 +1,133 @@
+/* First bloc */
+
+.conteinerOne {
+  background-image: url(img/sec1/img1.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteinerOne_content {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  flex-direction: column;
+  
+}
+
+.titleOne {
+  font-family: 'Exo', sans-serif;
+  font-size: 60px;
+  color: #282828;
+  line-height: 1.25;
+  text-align: center;
+  width: 708px;
+  height: 138px;
+}
+.conteinerOne_btnOne {
+  margin-top: 3px;
+  margin-top: 59px;
+}
+
+.conteinerOne_content_text {
+  font-family: 'Noto Sans', sans-serif;
+  margin-top: 20px;
+}
+
+
+
+/* Second bloc */
+
+.conteiner2 {
+  width: inherit;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conteiner2_format {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  
+}
+
+.conteiner2_first {
+  color: #ff6d6d;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-left: 11%;
+  margin-top: 190px;
+
+}
+
+.conteiner2_second {
+  font-family: 'Exo', sans-serif;
+  font-size: 40px;
+  color: #282828;
+  margin-left: 11%;
+  margin-right: 11%;
+  
+
+}
+
+.conteiner2_text {
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  color: #979797;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 30px;
+  
+
+}
+
+.pounts {
+  color: #ff6d6d;
+}
+
+/* Third block */ 
+
+.conteiner3 {
+  background-image: url(img/sec3/img.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner3_format{
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  
+}
+
+.conteiner3_format_head {
+  
+
+}
+
+.conteiner3_format_aleaslider {
+    justify-content: space-around;
+}
+
+.conteiner3_title1 {
+  color: #ff6d6d;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 30%;
+}
+
+.conteiner3_title2 {
+  text-align: center;
+  font-size: 40px;
+}
