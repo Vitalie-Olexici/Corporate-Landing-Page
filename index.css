@@ -1,4 +1,6 @@
-/* First bloc */
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;500&family=Noto+Sans&display=swap");
+
+/* First block */
 
 .conteinerOne {
   background-image: url(img/sec1/img1.png);
@@ -16,12 +18,12 @@
   align-items: center;
   width: 60%;
   flex-direction: column;
-  
 }
 
 .titleOne {
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 60px;
+  font-weight: 100;
   color: #282828;
   line-height: 1.25;
   text-align: center;
@@ -34,11 +36,9 @@
 }
 
 .conteinerOne_content_text {
-  font-family: 'Noto Sans', sans-serif;
+  font-family: "Noto Sans", sans-serif;
   margin-top: 20px;
 }
-
-
 
 /* Second bloc */
 
@@ -52,45 +52,39 @@
   display: flex;
   justify-items: center;
   flex-direction: column;
-  
 }
 
 .conteiner2_first {
   color: #ff6d6d;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   margin-left: 11%;
   margin-top: 190px;
-
 }
 
 .conteiner2_second {
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 40px;
   color: #282828;
   margin-left: 11%;
   margin-right: 11%;
-  
-
 }
 
 .conteiner2_text {
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 16px;
   color: #979797;
   margin-left: 11%;
   margin-right: 11%;
   margin-top: 30px;
-  
-
 }
 
 .pounts {
   color: #ff6d6d;
 }
 
-/* Third block */ 
+/* Third block */
 
 .conteiner3 {
   background-image: url(img/sec3/img.png);
@@ -102,32 +96,88 @@
   justify-content: center;
 }
 
-.conteiner3_format{
+.conteiner3_format {
   display: flex;
   justify-items: center;
   flex-direction: column;
-  
-}
-
-.conteiner3_format_head {
-  
-
 }
 
 .conteiner3_format_aleaslider {
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 88px;
+  margin-left: 157px;
+  margin-right: 157px;
 }
 
 .conteiner3_title1 {
   color: #ff6d6d;
-  font-family: 'Exo', sans-serif;
+  font-family: "Exo", sans-serif;
   font-size: 16px;
   text-transform: uppercase;
   text-align: center;
-  margin-top: 30%;
+  margin-top: 136px;
 }
 
 .conteiner3_title2 {
   text-align: center;
   font-size: 40px;
+}
+
+/* Fourth block */
+
+.container4 {
+  background-image: url(img/sec4/img1.png);
+  height: 100vh;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.conteiner4_format {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.conteiner4_info {
+  margin-left: 65px;
+  margin-right: 110px;
+}
+.conteiner4_title {
+  color: #ff6d6d;
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.conteiner4_title2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.conteiner4_text {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  color: #979797;
+  margin-top: 30px;
+}
+
+/* Cleints block */
+
+.clients_BG {
+  background-image: url(img/sec5/img\ 4.png);
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clients {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
